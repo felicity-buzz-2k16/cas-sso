@@ -1,0 +1,9 @@
+<script>
+var token = '<%= token %>'
+var name = '<%= name %>'
+var email = '<%= email %>'
+localStorage.setItem('SSO-Name', name)
+localStorage.setItem('SSO-Email', email)
+localStorage.setItem('SSO-Authorization', token)
+window.close()
+</script>

@@ -6,6 +6,7 @@
   "scripts": {
     "clean": "rimraf names banned",
     "start": "nodemon .",
+    "lint": "eslint src/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Megh Parikh <meghprkh@gmail.com> (http://meghprkh.github.io)",
@@ -23,6 +24,7 @@
     "passport-cas": "github:meghprkh/passport-cas"
   },
   "devDependencies": {
+    "eslint": "^2.13.1",
     "nodemon": "^1.9.2",
     "rimraf": "^2.5.2"
   }

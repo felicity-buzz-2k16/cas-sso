@@ -1,6 +1,8 @@
 cas-sso
 =======
 
+[![Build Status](https://travis-ci.org/felicity-buzz-2k16/cas-sso.svg?branch=master)](https://travis-ci.org/felicity-buzz-2k16/cas-sso)
+
 This serves as a Single-Sign On for CAS and can be used along with the nginx auth_request module
 
 An example app can be found [here](https://github.com/felicity-buzz-2k16/cas-sso-example)

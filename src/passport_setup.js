@@ -3,8 +3,8 @@ var { names, banned } = require('./models')
 
 passport.use(new (require('passport-cas').Strategy)({
   ssoBaseURL: 'https://login.iiit.ac.in/cas',
-  serverBaseURL: 'http://localhost',
-  serviceURL: '/auth/login',
+  serverBaseURL: 'https://felicity.iiit.ac.in',
+  serviceURL: '/buzz/auth/login',
 }, function(email, done) {
   banned.get(email, (err, isBanned) => {
     if (err && !err.notFound) return done(err);

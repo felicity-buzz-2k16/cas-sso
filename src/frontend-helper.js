@@ -1,7 +1,7 @@
 /*eslint-env browser */
 
 (function (window) {
-  var absurl = window.location.origin + '/auth/'
+  var absurl = window.location.origin + '/buzz/auth/'
 
   function login() {
     window.open(absurl + 'login')
